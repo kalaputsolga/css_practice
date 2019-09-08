@@ -1,0 +1,74 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Verdana, sans-serif;
+	margin: 0;
+	color: #373945;
+	background-color: #eee;
+}
+
+img {
+	vertical-align: middle;
+}
+
+.banner {
+	max-width: 1000px;
+/*
+	background: url(images/London.jpg) no-repeat 50% 50%;
+	background-size: cover;
+	width: 1000px;
+    height: 667px;
+*/
+	position: relative;
+	overflow: hidden;
+	margin: auto;
+}
+
+
+.overlay {
+	position: absolute;
+	top: 0;
+	z-index: 10;
+	max-width: 1000px;
+	height: 100%;
+	background: rgba(62,215,217,0.5);
+	transform: skew(-18deg);
+	left: 60%;
+}
+
+h1 {
+	position: absolute;
+	bottom: 39%;
+	right: 1%;
+	z-index: 11;
+	font-weight: bold;
+	font-size: 2.2em;
+/*	letter-spacing: 0.015em;*/
+	text-shadow: 2px 2px 5px Azure;
+}
+
+p {
+	position: absolute;
+	bottom: 20%;
+	right: 19%;
+	font-size: 4em;
+	z-index: 11;
+	font-weight: 800;
+	text-shadow: 2px 2px 5px Azure;
+}
+
+a {
+	position: absolute;
+	z-index: 11;
+	top: 4%;
+	left: 83%;
+	text-decoration: none;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: Azure;
+	font-weight: 400;
+	text-shadow: 2px 2px 5px #52576a;
+}

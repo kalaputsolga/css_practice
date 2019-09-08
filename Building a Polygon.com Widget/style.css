@@ -1,0 +1,26 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+h3 {
+	padding: 20px;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.3rem;
+	text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+}
+
+.box {
+	color: #60a9a6;
+	background: #F5FEC0;
+	flex: 1 1 200px;
+	transition: 0.1s background;
+}
+
+.middle {
+	background: #CAF2D7;
+}
+
+.box:hover {
+	background: #FDDEDE;
+}

@@ -1,0 +1,78 @@
+body {
+	background: #eee;
+}
+
+.content {
+	width: 85%;
+	margin: 0 auto;
+	padding: 2%;
+	background-image: linear-gradient(-45deg, LightCyan, WhiteSmoke, LavenderBlush);
+	border-radius: 2%;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.social li {
+	list-style: none;
+}
+
+.social li a {
+    width: 79%;
+	height: 2.6em;
+	display: block;
+	padding: 16px 10px 0px 70px;
+	margin: 20px;
+	color: dimgray;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-size: 0.9em;
+	font-weight: lighter;
+	letter-spacing: 0.05em;
+	text-decoration: none;
+
+}
+
+.social li a.fcb {
+	background: url(sprites/mySprite.png) no-repeat -2px -58px;
+}
+
+.social li a.wha {
+	background: url(sprites/mySprite.png) no-repeat -2px -239px;
+}
+
+.social li a.tw {
+	background: url(sprites/mySprite.png) no-repeat -2px -419px;
+}
+
+
+.social li a.inst {
+	background: url(sprites/mySprite.png) no-repeat -2px -599px;
+}
+
+.social li a.fcb:hover {
+	background: url(sprites/mySprite.png) no-repeat -2px 0;
+	color: #143690;
+
+}
+
+.social li a.wha:hover {
+	background: url(sprites/mySprite.png) no-repeat -2px -181px;
+	color: #00b118;
+
+}
+
+.social li a.tw:hover {
+	background: url(sprites/mySprite.png) no-repeat -2px -361px;
+	color: #1886c5;
+
+
+}
+
+.social li a.inst:hover {
+	background: url(sprites/mySprite.png) no-repeat -3px -541px;
+	color: #af1482;
+
+}
